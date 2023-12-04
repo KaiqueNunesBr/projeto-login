@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*
+    -- Paleta de cores
+*/
+:root {
+    --cor-1: #143373;   /* Azul Escuro */
+    --cor-2: #239EBF;   /* Azul Claro */
+    --cor-3: #A7E4F2;   /* Azul Muito Claro */
+    --cor-4: #8C91A5;   /* Cinza Azulado */
+    --cor-5: #314259;   /* Azul Marinho */
+  }

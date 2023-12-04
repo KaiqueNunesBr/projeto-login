@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/* Importar as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?;700&family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
 /*
     -- Paleta de cores
 */
@@ -9,4 +12,56 @@
     --cor-3: #A7E4F2;   /* Azul Muito Claro */
     --cor-4: #8C91A5;   /* Cinza Azulado */
     --cor-5: #314259;   /* Azul Marinho */
-  }
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--cor-5);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login {
+    /* centraliza a sessao no centro da tela */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*---------------------------------------*/
+
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: var(--cor-5) url(../imagens/portal.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
